@@ -11,8 +11,14 @@
   "author": "Alkyys <samuelvgnl@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@nuxtjs/proxy": "^2.0.0",
     "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.0",
+    "koa-logger": "^3.2.1",
     "koa-router": "^9.1.0"
   },
   "devDependencies": {
